@@ -40,6 +40,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dgetrans from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dge-trans@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/lapack-base-dge-trans/tags). For example,
+
+```javascript
 import dgetrans from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dge-trans@v0.0.0-esm/index.mjs';
 ```
 
@@ -157,7 +162,7 @@ import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@esm/index.mjs';
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dgetrans from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dge-trans@v0.0.0-esm/index.mjs';
+import dgetrans from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dge-trans@esm/index.mjs';
 
 var shapeA = [ 2, 3 ];
 var shapeOut = [ 3, 2 ];
