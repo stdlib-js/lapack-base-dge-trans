@@ -29,7 +29,7 @@ limitations under the License.
   <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
 </details>
 
-# dge-trans
+# dgetrans
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -40,12 +40,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dgetrans from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dge-trans@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/lapack-base-dge-trans/tags). For example,
-
-```javascript
-import dgetrans from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dge-trans@v0.0.0-deno/mod.js';
+var dgetrans = require( '@stdlib/lapack-base-dge-trans' );
 ```
 
 #### dgetrans( order, M, N, A, LDA, out, LDO )
@@ -53,7 +48,7 @@ import dgetrans from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dge-tran
 Converts a matrix from row-major layout to column-major layout or vice versa.
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
 
 var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 var out = new Float64Array( 6 );
@@ -77,7 +72,7 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
 
 // Initial arrays...
 var A0 = new Float64Array( [ 0.0, 1.0, 2.0, 3.0, 4.0 ] );
@@ -96,7 +91,7 @@ dgetrans( 'row-major', 2, 2, A1, 2, Out1, 2 );
 Converts a matrix from row-major layout to column-major layout or vice versa using alternative indexing semantics.
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
 
 var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 var out = new Float64Array( 6 );
@@ -121,7 +116,7 @@ The function has the following parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example,
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
 
 var A = new Float64Array( [ 0.0, 1.0, 2.0, 3.0, 4.0 ] );
 var out = new Float64Array( [ 0.0, 0.0, 11.0, 312.0, 53.0, 412.0 ] );
@@ -153,11 +148,11 @@ dgetrans.ndarray( 2, 2, A, 2, 1, 1, out, 2, 1, 2 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
-import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
-import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dgetrans from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dge-trans@deno/mod.js';
+var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
+var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
+var numel = require( '@stdlib/ndarray-base-numel' );
+var Float64Array = require( '@stdlib/array-float64' );
+var dgetrans = require( '@stdlib/lapack-base-dge-trans' );
 
 var shapeA = [ 2, 3 ];
 var shapeOut = [ 3, 2 ];
@@ -221,7 +216,93 @@ console.log( ndarray2array( out, shapeOut, stridesOut, 0, 'row-major' ) );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="installation">
+
+## Installation
+
+```bash
+npm install @stdlib/lapack-base-dge-trans
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
+
+<section class="usage">
+
+### Usage
+
+```c
+TODO
+```
+
+#### TODO
+
+TODO.
+
+```c
+TODO
+```
+
+TODO
+
+```c
+TODO
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```c
+TODO
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -240,7 +321,7 @@ console.log( ndarray2array( out, shapeOut, stridesOut, 0, 'row-major' ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
