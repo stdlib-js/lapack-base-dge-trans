@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-31)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
@@ -35,6 +35,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`9b301e1`](https://github.com/stdlib-js/stdlib/commit/9b301e1bac9da9445ca8be7a0c56f2af860441eb) - **refactor:** use base assertion utility _(by Athan Reines)_
 -   [`b1e106f`](https://github.com/stdlib-js/stdlib/commit/b1e106f1aff2467f9664914b994c6729c5ac60e7) - **chore:** fix EditorConfig lint errors [(#6278)](https://github.com/stdlib-js/stdlib/pull/6278) _(by Aarya Balwadkar, Athan Reines)_
 -   [`dd448bb`](https://github.com/stdlib-js/stdlib/commit/dd448bb3ad2a1f8aa801a7964623a64995057fdf) - **docs:** update examples _(by Athan Reines)_
 -   [`e0cef99`](https://github.com/stdlib-js/stdlib/commit/e0cef995e884021db3001dc1a3cfef0ca7b368c2) - **style:** remove extra spaces for regular expressions in publish script _(by Philipp Burckhardt)_
