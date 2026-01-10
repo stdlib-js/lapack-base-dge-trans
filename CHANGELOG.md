@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2026-01-10)
 
 <section class="features">
 
@@ -35,6 +35,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
 -   [`9b301e1`](https://github.com/stdlib-js/stdlib/commit/9b301e1bac9da9445ca8be7a0c56f2af860441eb) - **refactor:** use base assertion utility _(by Athan Reines)_
 -   [`b1e106f`](https://github.com/stdlib-js/stdlib/commit/b1e106f1aff2467f9664914b994c6729c5ac60e7) - **chore:** fix EditorConfig lint errors [(#6278)](https://github.com/stdlib-js/stdlib/pull/6278) _(by Aarya Balwadkar, Athan Reines)_
 -   [`dd448bb`](https://github.com/stdlib-js/stdlib/commit/dd448bb3ad2a1f8aa801a7964623a64995057fdf) - **docs:** update examples _(by Athan Reines)_
