@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`a9a8876`](https://github.com/stdlib-js/stdlib/commit/a9a8876832e118b718fc4e7727774ab017a73ca2) - **bench:** refactor to use string interpolation in `lapack/base/dge-trans` [(#10095)](https://github.com/stdlib-js/stdlib/pull/10095) _(by Prajjwal Bajpai, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Prajjwal Bajpai
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
