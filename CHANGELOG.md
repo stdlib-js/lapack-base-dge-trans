@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-04)
+## Unreleased (2026-04-10)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`09675ac`](https://github.com/stdlib-js/stdlib/commit/09675ac400d407006844e7463fbdb4efad6ba227) - **docs:** update examples _(by Athan Reines)_
 -   [`a9a8876`](https://github.com/stdlib-js/stdlib/commit/a9a8876832e118b718fc4e7727774ab017a73ca2) - **bench:** refactor to use string interpolation in `lapack/base/dge-trans` [(#10095)](https://github.com/stdlib-js/stdlib/pull/10095) _(by Prajjwal Bajpai, Athan Reines)_
 
 </details>
